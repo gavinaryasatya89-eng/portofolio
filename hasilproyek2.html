@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>pebanding negatif dan positif</title>
+    </head>
+
+    <body>
+        <h2><center><tittle>PEMBANDING N & P</tittle></center></h2>
+
+        <form>
+            <label>BILANGAN:</label>
+            <input type="number" id="BILANGAN">
+            <br></br>
+
+            <button type="button" onclick="
+            let bilangan = Number(document.getElementById('BILANGAN').value);
+            if (bilangan > 0 ) {
+                alert(`Bilangan Positif`);
+            }
+            else {
+                alert(`Bilangan Negatif`);
+            }
+            ">
+            Bilangan Apa Ini
+            </button>
+        </form>
+    </body>
+
+</html>
