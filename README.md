@@ -16,5 +16,5 @@ jadwal belajar
 - Git dan GitHub
 - VS Code dan Live Server
 ## Tautan
-- Website: menyusul setelah *deploy* ke Vercel
+- Website: https://portofolio-gavin.vercel.app/
 - Dibuat oleh: Gavin Ganendra Aryasatya, SMKN 1 Jenangan Ponorogo
