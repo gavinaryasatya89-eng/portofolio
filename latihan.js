@@ -29,8 +29,7 @@ function predikat(nilai) {
 }
 function rapor(namaSiswa, tugas, uts, uas) {
     const rata = hitungRataRata(tugas, uts, uas);
-    return `${namaSiswa}: rata-rata ${rata}, predikat $
-{predikat(rata)}`;
+    return `${namaSiswa}: rata-rata ${rata}, predikat ${predikat(rata)}`;
 }
 
 // 4. Hasil nilai Habil
